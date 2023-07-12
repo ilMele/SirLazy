@@ -1,10 +1,10 @@
 {
-    "links": {
-        "_link": "www.test.ts",
-        "_elements": [
-            "h2",
-            ".test",
-            "#test"
-        ]
-    }
+    "test": [
+        {
+            "link": "https://j-pop.it/it/catalog/category/view/id/696/s/fumetti/?product_list_dir=desc&product_list_order=position",
+            "item": ".product-item-info",
+            "title": ".product-item-link",
+            "asdf": ".product-item-link"
+        }
+    ]
 }
