@@ -2,9 +2,18 @@
     "test": [
         {
             "link": "https://j-pop.it/it/catalog/category/view/id/696/s/fumetti/?product_list_dir=desc&product_list_order=position",
-            "item": ".product-item-info",
-            "title": ".product-item-link",
-            "asdf": ".product-item-link"
+            "item": {
+                "tag": "div",
+                "id": ".product-item-info"
+            },
+            "title": {
+                "tag": "a",
+                "id": ".product-item-link"
+            },
+            "asdf": {
+                "tag": "a",
+                "id": ".product-item-link"
+            }
         }
     ]
 }

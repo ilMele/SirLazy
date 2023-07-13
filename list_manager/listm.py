@@ -8,10 +8,19 @@ SOURCE_FILE = "sources.txt"
 JSON_EX = {
     "test": [
         {
-            "link": "www.test.ts",
-            "item": ".product-item-info",
-            "title": ".product name product-item-name",
-            "link": ".product-item-link"
+            "link": "https://j-pop.it/it/catalog/category/view/id/696/s/fumetti/?product_list_dir=desc&product_list_order=position",
+            "item": {
+                "tag": "div",
+                "id": ".product-item-info"
+            },
+            "title": {
+                "tag": "a",
+                "id": ".product-item-link"
+            },
+            "asdf": {
+                "tag": "a",
+                "id": ".product-item-link"
+            }
         }
     ]
 }

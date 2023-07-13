@@ -28,7 +28,8 @@ elif len(argv) == 2:
     match argv[0]:
         case "-r":
             data = lm.get(argv[1])
-            scraper.start(data)
+            scraper.core(data)
+            
         case "-a":
             pass
         case "-d":
