@@ -1,8 +1,8 @@
 import sys
 
 # My modules
-from list_manager import listm
-from scraper import scraper
+import listm
+import scraper
 
 lm = listm.Listm()
 
