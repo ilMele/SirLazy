@@ -1,6 +1,6 @@
 import sys
 
 # My modules
-import scraper
+from scraper import core
 
-scraper.start()
+core.start()
